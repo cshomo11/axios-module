@@ -2,6 +2,9 @@
 
 # @nuxtjs/axios
 
+## Fork update
+This fork of the Nuxt 2 Axios module updates the package to use Axios v0.28.1.
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
