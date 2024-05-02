@@ -1,11 +1,12 @@
 {
   "name": "@nuxtjs/axios",
-  "version": "5.13.6",
+  "version": "5.14.0",
   "description": "Secure and easy Axios integration with Nuxt.js",
-  "repository": "nuxt-community/axios-module",
+  "repository": "cshomo11/axios-module",
   "license": "MIT",
   "contributors": [
-    "Pooya Parsa <pooya@pi0.ir>"
+    "Pooya Parsa <pooya@pi0.ir>",
+    "cshomo11"
   ],
   "main": "lib/module.js",
   "types": "types/index.d.ts",
@@ -16,12 +17,12 @@
   "scripts": {
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "release": "npm run test && standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "@nuxtjs/proxy": "^2.1.0",
-    "axios": "^0.28.0",
+    "axios": "^0.28.1",
     "axios-retry": "^3.9.1",
     "consola": "^2.15.3",
     "defu": "^5.0.1"
